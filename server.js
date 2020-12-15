@@ -17,7 +17,7 @@ app.use(express.json());
 //Routes???
 //=================
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "view.html"));
+    res.sendFile(path.join(__dirname, "./view.html"));
   });
 
 app.get("/reserve", function(req, res) {
