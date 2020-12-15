@@ -6,7 +6,7 @@ const path = require("path");
 //Setting up Express
 //=================
 const app = express();
-const PORT = 3000;
+const PORT = 3000 || process.env.PORT;
 
 //Express and data parsing??
 //=================
